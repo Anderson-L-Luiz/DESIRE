@@ -23,7 +23,7 @@ TRIGGER_MIN_SCOPE_CHANGE_LEN = int(os.getenv("TRIGGER_MIN_SCOPE_CHANGE_LEN", 5))
 
 # --- LLM Configuration ---
 # Assumes DeepSeek Coder is served via an API (like TGI or vLLM)
-LLM_API_URL = os.getenv("LLM_API_URL", "http://localhost:8080/generate") # Example TGI endpoint
+LLM_API_URL = os.getenv("LLM_API_URL", "http://localhost:8345/generate") # Example TGI endpoint
 LLM_TIMEOUT = int(os.getenv("LLM_TIMEOUT", 30)) # Seconds
 
 # --- Prompt Template ---
