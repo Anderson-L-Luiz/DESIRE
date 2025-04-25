@@ -1,0 +1,23 @@
+# Backend Framework & Server
+flask
+flask-socketio
+uvicorn
+python-dotenv
+
+# Real-time Communication & Async HTTP
+python-socketio >= 5.0 # Check compatibility with Flask-SocketIO
+httpx
+
+# RAG - Vector DB & Embeddings
+chromadb >= 0.4.0,<0.5.0 # Pin version range for stability
+sentence-transformers # For embedding model
+
+# Optional performance boost for asyncio
+# uvloop # Uncomment if needed and installable on your system
+
+# Optional for more advanced code analysis (add if used)
+# astroid
+# radon
+
+# Added for compatibility with newer Werkzeug in Flask dev server
+Werkzeug >= 2.0
